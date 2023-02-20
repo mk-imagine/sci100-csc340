@@ -43,8 +43,8 @@ int main() {
     if (wasEven) {
         for (int i = 0; i < arrSize; i++) {
             for (int j = 0; j < arrSize; j++) {
-                // if the row is even, put spaces on the even pair of indices, if the row is odd,
-                // put spaces in the odd pair of indices
+                // if the row and col are even, put spaces on the even pair of indices, if the row
+                // and col are odd, put spaces in the odd pair of indices
                 if ((i % 2 == 0 && j % 2 == 0) ||(i % 2 == 1 && j % 2 == 1)) {
                     starAry[i][j] = ' ';
                 }
