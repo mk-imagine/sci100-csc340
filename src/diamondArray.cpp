@@ -12,7 +12,7 @@ int main() {
     cin >> arrSize;
 
     // Check to see if the number of asterisks is even or odd
-    bool wasEven = arrSize % 2 == 0 ? true : false;
+    bool wasEven = arrSize % 2 == 0;
 
     // If the number of asterisks is even, add spaces between them to create an odd-sized array,
     // otherwise keep the array size the same
